@@ -38,7 +38,16 @@ inquirer
             name: 'license',
             choices: ['BSD',
             'MIT',
-            'GPL',]
+            'Eclipse',]
+
+        },
+        {
+            type: 'list',
+            message: 'What badges are used in production?',
+            name: 'badge',
+            choices: ['BSD',
+            'MIT',
+            'Eclipse',]
 
         },
         {
