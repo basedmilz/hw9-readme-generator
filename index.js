@@ -59,7 +59,7 @@ inquirer
     )
     .then((data) => {
        fs.writeFile('README.md',generate(data), (err) =>
-          err ? console.log(err) : console.log('Successfully created index.html!')
+          err ? console.log(err) : console.log('Successfully created README.md!')
         );
       });
 // TODO: Create a function to write README file
